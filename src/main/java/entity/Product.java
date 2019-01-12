@@ -1,14 +1,14 @@
 package entity;
 
 public class Product {
-    private int id;
+    private Long id;
     private String productName;
     private int price;
     private int weight;
     private String color;
     private int productCount;
 
-    public Product(int id, String productName, int price, int weight, String color, int productCount) {
+    public Product(Long id, String productName, int price, int weight, String color, int productCount) {
         this.id = id;
         this.productName = productName;
         this.price = price;
@@ -17,7 +17,7 @@ public class Product {
         this.productCount = productCount;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
